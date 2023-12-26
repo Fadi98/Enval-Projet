@@ -1,0 +1,39 @@
+#neg,
+#pos {
+    position: absolute;
+    top:12rem;
+    left: 6.5rem;
+}
+.hv {
+    font-size: 18px;
+}
+@media screen and (max-width: 576px) {
+    .contenu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .AN{
+        margin-top: 5vh;
+    }
+
+    .chart{
+        margin-left: 2rem;
+    }
+    tr{
+        font-size: 10px;
+    }
+    .Lg{
+        flex-direction: column;
+    }
+    .contenu {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.hv:hover{
+    background-color: #E7F9FD;
+    width: 100%;
+    border-radius: 8px;
+    height: 100%;
+    }
